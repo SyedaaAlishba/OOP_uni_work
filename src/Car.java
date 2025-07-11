@@ -12,10 +12,10 @@ public class Car {
         this.type=type;
     }
     void display_Car(){
-        System.out.println(this.name);
-        System.out.println(this.company);
-        System.out.println(this.colour);
-        System.out.println(this.type);
+        System.out.println("Name "+this.name);
+        System.out.println("Company "+this.company);
+        System.out.println("Color "+this.colour);
+        System.out.println("type "+this.type);
     }
 
 }
